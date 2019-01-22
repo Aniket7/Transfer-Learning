@@ -1,0 +1,4 @@
+Transfer Learning
+
+In practice, very few people train an entire Convolutional Neural Network from scratch because it is relatively rare to have large dataset.
+Instead, it is common practice to pretrain a ConvNet on large dataset (such as ImageNet, which contain 1.2 million images for 1000 classes), and then use a ConvNet either as initialization or a fixed features of extractor. The three major Transfer Learning scenarios are as follows
